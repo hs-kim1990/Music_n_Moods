@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Play, Pause, Heart } from 'lucide-react';
+import { Play, Pause } from 'lucide-react';
 import happy from '../assets/images/happy.png';
 import tired from '../assets/images/tired.png';
 import sad from '../assets/images/sad.png';
@@ -192,9 +192,6 @@ const MusicRecommendations: React.FC<MusicRecommendationsProps> = ({ moodState }
                       ) : (
                         <Play size={24} />
                       )}
-                    </button>
-                    <button className="p-2 rounded-full bg-white/80 hover:bg-white/90">
-                      <Heart className="w-5 h-5 text-red-500" />
                     </button>
 
                     <button

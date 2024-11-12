@@ -43,10 +43,11 @@ const Navbar = ({ setPage }: { setPage: (page: string) => void }) => {
 
   return (
     <nav className="z-50 py-2 px-4 backdrop-blur-sm sticky top-0 left-0 w-full flex justify-between items-center bg-transparent">
-      <button onClick={() => setPage('home')} className="flex items-center space-x-2">
+      <button onClick={() => (window.location.href = '/')} className="flex items-center space-x-2">
         <Music className="w-8 h-8 text-yellow-400" />
         <span className="text-2xl font-bold text-yellow-300">MnM</span>
       </button>
+
       
       <div className="flex items-center space-x-4">
         <button onClick={() => setPage('about')} className="text-md flex font-medium px-4 py-2 rounded-md">

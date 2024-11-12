@@ -88,10 +88,10 @@ function AboutUs() {
         <h2 className="text-3xl font-semibold text-yellow-300 mb-6 text-center">Meet Our Team</h2>
         <div className="flex flex-wrap justify-center gap-6">
           {[
-            { name: 'Alice Johnson', role: 'CEO & Founder', imgSrc: './src/assets/images/1.png' },
-            { name: 'Bob Smith', role: 'Chief Technical Officer', imgSrc: './src/assets/images/2.png' },
-            { name: 'Cara Lee', role: 'Head of Product Design', imgSrc: './src/assets/images/3.png' },
-            { name: 'David Kim', role: 'Lead Developer', imgSrc: './src/assets/images/4.png' },
+            { name: 'Hyeongseok Kim', role: 'CEO & Founder', imgSrc: './src/assets/images/1.png' },
+            { name: 'Miki Mizuki', role: 'Chief Technical Officer', imgSrc: './src/assets/images/2.png' },
+            { name: 'Zhuhao Mei', role: 'Head of Product Design', imgSrc: './src/assets/images/3.png' },
+            { name: 'Qingyue Pang', role: 'Lead Developer', imgSrc: './src/assets/images/4.png' },
           ].map((member, index) => (
             <motion.div 
               key={index} 
