@@ -1,0 +1,14 @@
+[
+  {
+    "username": "Raed Ben Maghzouz",
+    "password": "$2b$10$uovQFByubb6IM0PnfD18N.TUSp62jnFjCRv5L9nwyXvriW1Fw9FFG",
+    "birthDate": "1999-03-01",
+    "gender": "Male"
+  },
+  {
+    "username": "h_kim",
+    "password": "$2b$10$19kcazqMJjQr7vkHaVLmgeEnPAx9EgJTPLteC04Esa9wZVZ12BRBm",
+    "birthDate": "1990-04-17",
+    "gender": "Prefer not to say"
+  }
+]
